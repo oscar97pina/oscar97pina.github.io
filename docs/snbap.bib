@@ -1,0 +1,16 @@
+
+@InProceedings{pmlr-v172-pina22a,
+  title = 	 {Structural Networks for Brain Age Prediction},
+  author =       {Pina, Oscar and Cumplido-Mayoral, Irene and Cacciaglia, Raffaele and Gonz\'alez-de-Ech\'avarri, Jos\'e Mar\'ia and Gispert, Juan Domingo and Vilaplana, Ver\'onica},
+  booktitle = 	 {Proceedings of The 5th International Conference on Medical Imaging with Deep Learning},
+  pages = 	 {944--960},
+  year = 	 {2022},
+  editor = 	 {Konukoglu, Ender and Menze, Bjoern and Venkataraman, Archana and Baumgartner, Christian and Dou, Qi and Albarqouni, Shadi},
+  volume = 	 {172},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {06--08 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v172/pina22a/pina22a.pdf},
+  url = 	 {https://proceedings.mlr.press/v172/pina22a.html},
+  abstract = 	 {Biological networks have gained considerable attention within the Deep Learning community because of the promising framework of Graph Neural Networks (GNN), neural models that operate in complex networks. In the context of neuroimaging, GNNs have successfully been employed for functional MRI processing but their application to ROI-level structural MRI (sMRI) remains mostly unexplored. In this work we analyze the implementation of these geometric models with sMRI by building graphs of ROIs (ROI graphs) using tools from Graph Signal Processing literature and evaluate their performance in a downstream supervised task, age prediction. We first make a qualitative and quantitative comparison of the resulting networks obtained with common graph topology learning strategies. In a second stage, we train GNN-based models for brain age prediction. Since the order of every ROI graph is exactly the same and each vertex is an entity by itself (a ROI), we evaluate whether including ROI information during message-passing or global pooling operations is beneficial and compare the performance of GNNs against a Fully-Connected Neural Network baseline. The results show that ROI-level information is needed during the global pooling operation in order to achieve competitive results. However, no relevant improvement has been detected when it is incorporated during the message passing. These models achieve a MAE of 4.27 in hold-out test data, which is a performance very similar to the baseline, suggesting that the inductive bias included with the obtained graph connectivity is relevant and useful to reduce the dimensionality of the problem.}
+}
