@@ -8783,6 +8783,17 @@ h1, h2, h3, h4, h5,
     color: #000000; 
   }
 
+.img-poster {
+  width: 100%;
+  z-index: 0;
+  position: relative; }
+  .img-poster .img {
+    display: block;
+    width: 100%;
+    position: relative;
+    z-index: 1; } 
+}
+
 .ftco-partner {
   padding: 4em 0 !important; }
   .ftco-partner .partner {
